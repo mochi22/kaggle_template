@@ -1,0 +1,5 @@
+defaults:
+  - base@_here_ # setting base.yaml
+
+seed: 22 # overwrite base.yaml
+test: 1
