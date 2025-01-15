@@ -1,5 +1,5 @@
-# CZII_kaggle_3d_segmentation
-this is kaggle competition CZII. task is 3d segmentation with micro proteins
+# competition name!
+this is kaggle template.
 
 
 ## Directory
@@ -10,14 +10,14 @@ this is kaggle competition CZII. task is 3d segmentation with micro proteins
 ├── Dockerfile
 ├── compose.yaml
 ├── experiments
-    ├── <num_train_name>.yaml
+    ├── <num_train_name>.yaml # training setting
     ├── base.yaml # base settings for training
     └── config.yaml # 
 ├── input
 ├── notebook
 ├── output
 ├── utils
-└── yamls: データのパスなど各スクリプトに共通する設定を管理
+└── yamls: # common setting for Hydra(ex: data paths)
 ```
 
 ## kaggle environment with Docker
@@ -47,5 +47,5 @@ python experiments/run.py exp=001
 - Hydra
 Using Hydra for manaing hyperameter.
 
-- MLflow
-Usin MLflow for logging
+- Wandb
+Usin Wandb for logging(modefy now...)
